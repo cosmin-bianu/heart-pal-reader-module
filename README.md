@@ -1,6 +1,6 @@
 # Heart Pal - Data Reading
 
-This is the module for reading the data from the prototype. This is part of the Heart Pal project.
+This is the module for reading the data from the prototype.
 
 ## Getting Started
 
@@ -12,8 +12,23 @@ Our prototype is comprised of three modules:
 ```
 
 You will need to wire up the device which is done as following:
-(to be added soon)
 
+- Between the Raspberry Pi Zero and the ADS1110:
+```
+5V - VCC
+0V - GND
+SCL_PIN - SCL
+SDA_PIN - SDA
+```
+- Between the ADS1110 and the Sparkfun Heart Monitoring Module:
+```
+VIN+ - OUTPUT
+```
+- Between the Sparkfun Heart Monitoring Module and the Raspberry Pi Zero:
+```
+3.3V - 3V
+GND - 0V
+```
 
 ### Prerequisites
 
