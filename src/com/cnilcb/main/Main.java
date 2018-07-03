@@ -183,10 +183,10 @@ public class Main {
         nextClk(false); // 0
         nextClk(false); // 0
         nextClk(false); // 0
-        nextClk(read);       // R/W
+        nextClk(read);  // R/W
     }
 
-    //Setup as instructed in the ASD1110 documentation
+    //Setup as instructed in the ADS1110 documentation
     private static void setup(){
         System.out.println("Setting up chip");
 
