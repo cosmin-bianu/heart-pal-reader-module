@@ -4,48 +4,39 @@ This is the module for reading the data from the prototype.
 
 ## Getting Started
 
-Our prototype is comprised of three modules:
-```
--> Raspberry Pi Zero
--> ADS1110 Analogue to Digital Converter
--> Sparkfun Heart Monitoring Module
-```
+Our prototype has been built with these three modules:
 
-You will need to wire up the device which is done as following:
+* [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
+* [ADS1110 Analogue to Digital Converter](https://picclick.co.uk/1pcs-16-bits-Analog-to-Digital-Converter-Module-202034119772.html)
+* [Sparkfun Heart Monitoring Module](https://www.sparkfun.com/products/12650)
+
+Our wiring looked something like this
 
 - Between the Raspberry Pi Zero and the ADS1110:
 ```
-5V - VCC
-0V - GND
-SCL_PIN - SCL
-SDA_PIN - SDA
+5V <-> VCC
+0V <-> GND
+SCL_PIN <-> SCL
+SDA_PIN <-> SDA
 ```
 - Between the ADS1110 and the Sparkfun Heart Monitoring Module:
 ```
-VIN+ - OUTPUT
+VIN+ <-> OUTPUT
 ```
 - Between the Sparkfun Heart Monitoring Module and the Raspberry Pi Zero:
 ```
-3.3V - 3V
-GND - 0V
+3.3V <-> 3V
+GND <-> 0V
 ```
 
 ### Prerequisites
 
 You will need to have Java 1.8 installed on the Raspberry Pi Zero.
-If you use Raspbian, it should come with Java preinstalled.
+It should come with Java preinstalled on Raspbian.
 
 ## Deployment
 
-You will want to run the JAR file on startup with the other software because the project is made in such manner that it displays everything on a smartphonethat has the app installed. We suggest registering a service and enabling the service to run on startup using systemctl. If you don't know how to do any of that read [this great tutorial](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6).
-
-## Contributing
-
-This section will be updated soon.
-
-## Versioning
-
-This section will be updated soon.
+You will want to run the JAR file on startup with the other software because the project is made in such manner that it displays everything on a smartphone that has the app installed. We suggest registering a service and enabling the service to run on startup using systemctl. [Here](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6) is a great tutorial on how do it.
 
 ## Authors
 
