@@ -1,6 +1,6 @@
 # Heart Pal - Data Reading
 
-This is the module for reading the data from the prototype.
+Java application used to read ECG data from the Sparkfun Heart Monitoring module on the Rapsberry Pi Zero W. This has been used to transmit ECG data to the Heart Pal Android application for processing.
 
 ## Getting Started
 
@@ -9,6 +9,8 @@ Our prototype has been built with these three modules:
 * [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
 * [ADS1110 Analogue to Digital Converter](https://picclick.co.uk/1pcs-16-bits-Analog-to-Digital-Converter-Module-202034119772.html)
 * [Sparkfun Heart Monitoring Module](https://www.sparkfun.com/products/12650)
+* [Sparkfun Electrode Sensor Cables](https://www.sparkfun.com/products/12970)
+* [Sparkfun Electrode Pads](https://www.sparkfun.com/products/12969)
 
 Our wiring looked something like this
 
