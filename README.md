@@ -2,7 +2,12 @@
 
 Java application used to read ECG data from the Sparkfun Heart Monitoring module on the Rapsberry Pi Zero W. This has been used to transmit ECG data to the Heart Pal Android application for processing.
 
-## Getting Started
+
+
+### Prerequisites
+
+You will need to have Java 1.8 installed on the Raspberry Pi Zero.
+It should come with Java preinstalled on Raspbian.
 
 Our prototype has been built with these three modules:
 
@@ -12,7 +17,10 @@ Our prototype has been built with these three modules:
 * [Sparkfun Electrode Sensor Cables](https://www.sparkfun.com/products/12970)
 * [Sparkfun Electrode Pads](https://www.sparkfun.com/products/12969)
 
-Our wiring looked something like this
+
+## Getting Started
+
+Our wiring looked was configured like this
 
 - Between the Raspberry Pi Zero and the ADS1110:
 ```
@@ -31,10 +39,6 @@ VIN+ <-> OUTPUT
 GND <-> 0V
 ```
 
-### Prerequisites
-
-You will need to have Java 1.8 installed on the Raspberry Pi Zero.
-It should come with Java preinstalled on Raspbian.
 
 ## Deployment
 
