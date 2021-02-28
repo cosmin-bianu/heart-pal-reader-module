@@ -9,7 +9,7 @@ Java application used to read ECG data from the Sparkfun Heart Monitoring module
 You will need to have Java 1.8 installed on the Raspberry Pi Zero.
 It should come with Java preinstalled on Raspbian.
 
-Our prototype has been built with these three modules:
+Our prototype has been built with these modules:
 
 * [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
 * [ADS1110 Analogue to Digital Converter](https://picclick.co.uk/1pcs-16-bits-Analog-to-Digital-Converter-Module-202034119772.html)
